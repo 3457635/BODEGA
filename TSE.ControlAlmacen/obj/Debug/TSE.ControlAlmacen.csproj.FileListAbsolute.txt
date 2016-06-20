@@ -1,0 +1,109 @@
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\TSE.ControlAlmacen.dll.config
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\TSE.ControlAlmacen.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\TSE.ControlAlmacen.pdb
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Antlr3.Runtime.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\AspNet.ScriptManager.bootstrap.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\AspNet.ScriptManager.jQuery.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\EntityFramework.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\EntityFramework.SqlServer.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\itextsharp.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\itextsharp.xtra.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.Core.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Cookies.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Facebook.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Google.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.OAuth.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Twitter.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.ScriptManager.WebForms.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Web.Infrastructure.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Newtonsoft.Json.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Owin.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Reports.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\System.Web.Optimization.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\System.Web.Providers.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\WebGrease.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\System.Web.Optimization.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Antlr3.Runtime.pdb
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Newtonsoft.Json.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\EntityFramework.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\EntityFramework.SqlServer.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.Core.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\System.Web.Providers.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Facebook.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Cookies.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Google.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Twitter.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.OAuth.xml
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\obj\Debug\TSE.ControlAlmacen.dll.licenses
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\obj\Debug\TSE.ControlAlmacen.dll
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\obj\Debug\TSE.ControlAlmacen.pdb
+C:\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\obj\Debug\TSE.ControlAlmacen.csprojResolveAssemblyReference.cache
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\obj\Debug\TSE.ControlAlmacen.csprojResolveAssemblyReference.cache
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\obj\Debug\TSE.ControlAlmacen.dll.licenses
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\obj\Debug\TSE.ControlAlmacen.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\obj\Debug\TSE.ControlAlmacen.pdb
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\TSE.ControlAlmacen.dll.config
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\TSE.ControlAlmacen.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\TSE.ControlAlmacen.pdb
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Antlr3.Runtime.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\AspNet.ScriptManager.bootstrap.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\AspNet.ScriptManager.jQuery.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\EntityFramework.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\EntityFramework.SqlServer.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Google.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.ScriptManager.WebForms.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Web.Infrastructure.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Newtonsoft.Json.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Owin.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\System.Web.Optimization.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\System.Web.Providers.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\WebGrease.dll
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\System.Web.Optimization.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Antlr3.Runtime.pdb
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Newtonsoft.Json.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\EntityFramework.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\EntityFramework.SqlServer.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\System.Web.Providers.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Google.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Respaldo Sistemas\c\TseTF\TSE.ControlAlmacen\TSE.ControlAlmacen\bin\Microsoft.Owin.Security.OAuth.xml
