@@ -22,6 +22,15 @@ namespace TSE.ControlAlmacen {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// jmb control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl jmb;
+        
+        /// <summary>
         /// ScriptManager1 control.
         /// </summary>
         /// <remarks>
@@ -40,22 +49,58 @@ namespace TSE.ControlAlmacen {
         protected global::System.Web.UI.HtmlControls.HtmlTable TablaEjemplo;
         
         /// <summary>
-        /// upId control.
+        /// upCliente control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UpdatePanel upId;
+        protected global::System.Web.UI.UpdatePanel upCliente;
         
         /// <summary>
-        /// ddlClientes control.
+        /// ddlSucursal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlClientes;
+        protected global::System.Web.UI.WebControls.DropDownList ddlSucursal;
+        
+        /// <summary>
+        /// sdsSucursal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource sdsSucursal;
+        
+        /// <summary>
+        /// upCliente1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.UpdatePanel upCliente1;
+        
+        /// <summary>
+        /// ddlCliente control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlCliente;
+        
+        /// <summary>
+        /// SdsCliente control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SdsCliente;
         
         /// <summary>
         /// imgAdd control.
@@ -67,22 +112,13 @@ namespace TSE.ControlAlmacen {
         protected global::System.Web.UI.WebControls.ImageButton imgAdd;
         
         /// <summary>
-        /// sqlClientes control.
+        /// GridView4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource sqlClientes;
-        
-        /// <summary>
-        /// GridView2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView2;
+        protected global::System.Web.UI.WebControls.GridView GridView4;
         
         /// <summary>
         /// sqlGrid control.
@@ -247,13 +283,13 @@ namespace TSE.ControlAlmacen {
         protected global::System.Web.UI.WebControls.Label lblSucursal;
         
         /// <summary>
-        /// ddlSucursal control.
+        /// ddlSucursal1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlSucursal;
+        protected global::System.Web.UI.WebControls.DropDownList ddlSucursal1;
         
         /// <summary>
         /// Button1 control.
@@ -274,12 +310,12 @@ namespace TSE.ControlAlmacen {
         protected global::System.Web.UI.WebControls.Button btnCrear;
         
         /// <summary>
-        /// sqlSucursal control.
+        /// sqlSucursal2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource sqlSucursal;
+        protected global::System.Web.UI.WebControls.SqlDataSource sqlSucursal2;
     }
 }

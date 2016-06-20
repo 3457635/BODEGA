@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NuevaEntrada.aspx.cs" Inherits="TSE.ControlAlmacen.NuevaEntrada" %>
 
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <head>
      <link href="../Content/Site.css" rel="stylesheet" type="text/css" /> 
@@ -80,34 +81,34 @@
         <asp:Label ID="lblFecha" runat="server" Text=""></asp:Label></p>
         <table align="center" class="auto-style16" >
             <tr class="tabla">
-                <td class="auto-style19">CLIENTE&nbsp;</td>
+                <td class="auto-style19">SUCURSAL</td>
                 <td class="auto-style17">
                     <asp:UpdatePanel ID="upCliente" runat="server">
                         <ContentTemplate>
                             
                             &nbsp;&nbsp;&nbsp;&nbsp;
                             
+                            <asp:DropDownList ID="ddlSucursal" runat="server" AutoPostBack="True" CssClass="txtTamaño" DataSourceID="sdsSucursal" DataTextField="nombre_corto" DataValueField="id_sucursal">
+                            </asp:DropDownList>
+                            <asp:SqlDataSource ID="sdsSucursal" runat="server" ConnectionString="<%$ ConnectionStrings:ERPConnectionString %>" SelectCommand="SELECT id_sucursal, nombre_corto FROM Sucursal order by nombre_corto"></asp:SqlDataSource>
+                            <br />
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                </td>
+            </tr>
+            <tr class="tabla">
+                <td class="auto-style19">CLIENTE&nbsp;&nbsp;</td>
+                <td class="auto-style17">
+                    <asp:UpdatePanel ID="upCliente1" runat="server">
+                        <ContentTemplate>
                             <asp:DropDownList ID="ddlCliente" runat="server" AutoPostBack="True" CssClass="txtTamaño" DataSourceID="SdsCliente" DataTextField="nombre_comercial" DataValueField="id_cliente">
                             </asp:DropDownList>
-                            <br />
                             <asp:SqlDataSource ID="SdsCliente" runat="server" ConnectionString="<%$ ConnectionStrings:ERPConnectionString %>" SelectCommand="SELECT nombre_comercial, id_cliente FROM Cliente where id_sucursal = @suc ORDER BY nombre_comercial">
                                 <SelectParameters>
                                     <asp:ControlParameter ControlID="ddlSucursal" Name="suc" PropertyName="SelectedValue" />
                                 </SelectParameters>
                             </asp:SqlDataSource>
                             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="ddlCliente" CssClass="auto-style9" ErrorMessage="Campo obligatorio"></asp:RequiredFieldValidator>
-                        </ContentTemplate>
-                    </asp:UpdatePanel>
-                </td>
-            </tr>
-            <tr class="tabla">
-                <td class="auto-style19">SUCURSAL</td>
-                <td class="auto-style17">
-                    <asp:UpdatePanel ID="upCliente1" runat="server">
-                        <ContentTemplate>
-                            <asp:DropDownList ID="ddlSucursal" runat="server" CssClass="txtTamaño" DataSourceID="sdsSucursal" DataTextField="nombre_corto" DataValueField="id_sucursal" AutoPostBack="True">
-                            </asp:DropDownList>
-                            <asp:SqlDataSource ID="sdsSucursal" runat="server" ConnectionString="<%$ ConnectionStrings:ERPConnectionString %>" SelectCommand="SELECT id_sucursal, nombre_corto FROM Sucursal order by nombre_corto"></asp:SqlDataSource>
                             <br />
                         </ContentTemplate>
                     </asp:UpdatePanel>
@@ -251,17 +252,18 @@
         <br />
         <br />
 
+        
         <asp:UpdatePanel ID="UpdatePanel3" runat="server">
             <ContentTemplate>
-                <asp:GridView ID="GridView4" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" DataKeyNames="id" GridLines="Horizontal" OnRowCancelingEdit="GridView4_RowCancelingEdit" OnRowEditing="GridView4_RowEditing" OnRowUpdating="GridView4_RowUpdating" OnRowDeleting="GridView4_RowDeleting">
+                <asp:GridView ID="GridView4" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="2" CellSpacing="4" DataKeyNames="id" ForeColor="#569D7F" HorizontalAlign="Center" OnRowCancelingEdit="GridView4_RowCancelingEdit" OnRowDeleting="GridView4_RowDeleting" OnRowEditing="GridView4_RowEditing" OnRowUpdating="GridView4_RowUpdating">
                     <Columns>
                         <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
                         <asp:TemplateField HeaderText="id" InsertVisible="False" SortExpression="id">
                             <EditItemTemplate>
-                                <asp:Label ID="id" runat="server" Text='<%# Eval("id") %>' Enabled="false"></asp:Label>
+                                <asp:Label ID="id" runat="server" Enabled="false" Text='<%# Eval("id") %>'></asp:Label>
                             </EditItemTemplate>
                             <ItemTemplate>
-                                <asp:Label ID="id" runat="server" Text='<%# Bind("id") %>' Enabled="false"></asp:Label>
+                                <asp:Label ID="id0" runat="server" Enabled="false" Text='<%# Bind("id") %>'></asp:Label>
                             </ItemTemplate>
                         </asp:TemplateField>
                         <asp:TemplateField HeaderText="alto" SortExpression="alto">
@@ -299,10 +301,10 @@
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>
-                    <FooterStyle BackColor="White" ForeColor="#333333" />
-                    <HeaderStyle BackColor="#336666" Font-Bold="True" ForeColor="White" />
-                    <PagerStyle BackColor="#336666" ForeColor="White" HorizontalAlign="Center" />
-                    <RowStyle BackColor="White" ForeColor="#333333" />
+                    <FooterStyle BackColor="White" Font-Bold="True" ForeColor="#569D7F" HorizontalAlign="Center" VerticalAlign="Bottom" />
+                    <HeaderStyle BackColor="#42916A" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" Font-Bold="True" ForeColor="White" HorizontalAlign="Center" VerticalAlign="Bottom" />
+                    <PagerStyle BackColor="#569D7F" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" ForeColor="White" HorizontalAlign="Center" VerticalAlign="Middle" />
+                    <RowStyle BackColor="White" ForeColor="#333333" HorizontalAlign="Center" VerticalAlign="Middle" />
                     <SelectedRowStyle BackColor="#339966" Font-Bold="True" ForeColor="White" />
                     <SortedAscendingCellStyle BackColor="#F7F7F7" />
                     <SortedAscendingHeaderStyle BackColor="#487575" />
@@ -312,7 +314,7 @@
                 <br />
                 <asp:DataGrid ID="DataGrid1" runat="server" Visible="False">
                 </asp:DataGrid>
-                <asp:SqlDataSource ID="sdsUbicacion" runat="server" ConnectionString="<%$ ConnectionStrings:ERPConnectionString %>" SelectCommand="SELECT [nombre_celda] FROM [lg].[Ubicacion] where disponible=0 and id_sucursal=1" DeleteCommand="delete from tmpKardexDetalle" UpdateCommand="update lg.Ubicacion set disponible = 0 where nombre_celda = @ubicacion">
+                <asp:SqlDataSource ID="sdsUbicacion" runat="server" ConnectionString="<%$ ConnectionStrings:ERPConnectionString %>" DeleteCommand="delete from tmpKardexDetalle" SelectCommand="SELECT [nombre_celda] FROM [lg].[Ubicacion] where disponible=0 and id_sucursal=1" UpdateCommand="update lg.Ubicacion set disponible = 0 where nombre_celda = @ubicacion">
                     <UpdateParameters>
                         <asp:Parameter Name="ubicacion" />
                     </UpdateParameters>
@@ -330,6 +332,8 @@
                 <br />
             </ContentTemplate>
         </asp:UpdatePanel>
+
+        
         <br />
         <br />
         
