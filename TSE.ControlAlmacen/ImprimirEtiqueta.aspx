@@ -73,9 +73,9 @@
                                                 <asp:ButtonField ButtonType="Button" CommandName="Select" HeaderText="Numero de Inicio" Text="Generar" />
                                             </Columns>
                                         </asp:GridView>
-                                        <asp:SqlDataSource ID="sqlUltimo" runat="server" ConnectionString="<%$ ConnectionStrings:ERPConnectionString %>" SelectCommand="SELECT MAX(kd.consecutivo) AS Ultima FROM lg.Kardex_Detalle AS kd INNER JOIN lg.Kardex AS k ON k.id_kardex = kd.id_kardex AND k.id_cliente = (SELECT id_cliente FROM Cliente WHERE (nombre_comercial = @nomComercial))">
+                                        <asp:SqlDataSource ID="sqlUltimo" runat="server" ConnectionString="<%$ ConnectionStrings:ERPConnectionString %>" SelectCommand="SELECT ultima from lg.etiqueta where id_cliente = @id_cliente">
                                             <SelectParameters>
-                                                <asp:ControlParameter ControlID="ddlCliente" Name="nomComercial" PropertyName="SelectedValue" />
+                                                <asp:ControlParameter ControlID="ddlCliente" Name="id_cliente" PropertyName="SelectedValue" />
                                             </SelectParameters>
                                         </asp:SqlDataSource>
                                 <br />

@@ -15,6 +15,8 @@ namespace TSE.ControlAlmacen
 {
     public partial class ImprimirEtiqueta : System.Web.UI.Page
     {
+
+        string constr = @"Data Source=rtbygfdtxb.database.windows.net;Initial Catalog=ERP;User ID=omarifr;Password=Ifrramo2.";
         protected void Page_Load(object sender, EventArgs e)
         {
             DateTime Now = DateTime.Now;
@@ -36,20 +38,65 @@ namespace TSE.ControlAlmacen
             else
             {
                 valor = Convert.ToInt32(txtCantidad.Text);
-                generarPDF(valor);
                 GuardaUltimaImpresa();
+                generarPDF(valor);
+                
             }
 
         }
+
+        //COMPLETAR
         protected void GuardaUltimaImpresa()
         {
+            int total = 0;
+            foreach (GridViewRow row in GridView3.Rows)
+            {
 
+                string valor = row.Cells[1].Text;
+                int ValorNum;
+                
+                if (valor == "&nbsp;")
+                {
+                    ValorNum = 0;
+                    
+                    
+                }else{
 
+                    ValorNum = Convert.ToInt32(valor);
+                    
+                }
+                total = ValorNum + Convert.ToInt32(txtCantidad.Text);
+                break;
+
+            }
+            int id_cliente = Convert.ToInt32(ddlCliente.Text);
+            int id_sucursal = Convert.ToInt32(ddlSucursal.Text);
+
+            SqlConnection con = new SqlConnection(constr);
+            SqlCommand sqlcomm;
+            con.Open();
+            sqlcomm = new SqlCommand();
+            sqlcomm.Connection = con;
+            //Se indica que sera un SP 
+            sqlcomm.CommandType = CommandType.StoredProcedure;
+            //Nombre del SP
+            sqlcomm.CommandText = "[lg].[Guarda_ultima_Etiqueta]";
+            //Parametros del SP
+            sqlcomm.Parameters.Add(new SqlParameter("@id_cliente", SqlDbType.Int)).Value = id_cliente;
+            sqlcomm.Parameters.Add(new SqlParameter("@ultima", SqlDbType.Int)).Value = total;
+            sqlcomm.Parameters.Add(new SqlParameter("@fecha", SqlDbType.VarChar)).Value = lblFecha.Text;
+            sqlcomm.Parameters.Add(new SqlParameter("@id_sucursal", SqlDbType.Int)).Value = id_sucursal;
+
+            sqlcomm.ExecuteNonQuery();
+            sqlcomm.Dispose();
+            con.Close();
+            
+        
         }
         private void generarPDF(int valor)
         {
 
-
+            //VERIFICAR
             Document pdfDoc = new Document(PageSize.LETTER.Rotate(), 10, 10, 10, 10);
 
             try
